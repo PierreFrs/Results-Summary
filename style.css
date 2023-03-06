@@ -174,7 +174,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background: linear-gradient(rgb(87, 98, 255) 1%, rgb(49, 122, 231) 100%);
 }
 
 /* Media Querry */
