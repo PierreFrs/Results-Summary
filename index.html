@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,17 +18,16 @@
 <main>
   <!-- result display -->
   <div class="result-display">
-  <h1 class="your-results">Your Result</h1>
+  <p class="your-result">Your Result</p>
   <div class="score">
-    <span class="main-number">76</span>
-    <span class="of-100">of 100</span>
+    <p class="percentage"><span class="main-number">76</span><br>of 100</p>
   </div>
   <p class="congrats">Great</p>
   <p class="comparison">You scored higher than 65% of the people who have taken these tests.</p>
   </div>
   <!-- Summary -->
   <div class="summary">
-  <h1 class="summary">Summary</h1>
+  <p class="summary-title">Summary</p>
   <div class="scores-container">
     <div class="summary-score reaction">
       <div class="left-area">
@@ -36,7 +35,7 @@
         <p class="left-text">Reaction</p>
       </div>
       <div class="right-area">
-        <p class="summary-percentage"><span class="summary-left-">80</span class="percent"> / 100</p>
+        <p class="summary-percentage"><span class="summary-left">80</span> / 100</p>
       </div>
     </div>
     <div class="summary-score memory">
@@ -45,7 +44,7 @@
         <p class="left-text">Memory</p>
       </div>
       <div class="right-area">
-        <p class="summary-percentage"><span class="summary-left-">92</span class="percent"> / 100</p>
+        <p class="summary-percentage"><span class="summary-left">92</span> / 100</p>
       </div>
     </div>
     <div class="summary-score verbal">
@@ -54,7 +53,7 @@
         <p class="left-text">Verbal</p>
       </div>
       <div class="right-area">
-        <p class="summary-percentage"><span class="summary-left-">61</span class="percent"> / 100</p>
+        <p class="summary-percentage"><span class="summary-left">61</span> / 100</p>
       </div>
     </div>
     <div class="summary-score visual">
@@ -63,7 +62,7 @@
         <p class="left-text">Visual</p>
       </div>
       <div class="right-area">
-        <p class="summary-percentage"><span class="summary-left-">72</span class="percent"> / 100</p>
+        <p class="summary-percentage"><span class="summary-left">72</span> / 100</p>
       </div>
     </div>
   </div>
