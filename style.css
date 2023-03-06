@@ -21,11 +21,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: hsl(221, 100%, 96%);
-}
-
-main {
-    background-color: white;
 }
 
 /* Your Result Container*/
@@ -193,7 +188,7 @@ button:hover {
         max-width: 736px;
         max-height: 512px;
         border-radius: 32px;
-        box-shadow: 10px 20px 50px hsla(241, 81%, 54%, 0.1);
+        box-shadow: 10px 20px 50px hsla(241, 81%, 54%, 0.2);
     }
     
     .result-display {
